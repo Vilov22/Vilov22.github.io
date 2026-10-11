@@ -1,0 +1,18 @@
+---
+title: Posts
+permalink: /posts/
+---
+<p class="eyebrow">Ideas in progress</p>
+<h1>Posts</h1>
+<p>Occasional notes on projects, mathematics and things I'm learning.</p>
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%B %d, %Y' }}</time>
+    <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    {% if post.description %}<span class="muted">{{ post.description | escape }}</span>{% endif %}
+  </li>
+  {% else %}
+  <li>No posts yet.</li>
+  {% endfor %}
+</ul>

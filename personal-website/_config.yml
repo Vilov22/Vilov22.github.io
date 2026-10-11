@@ -1,0 +1,25 @@
+title: "Avilov Anton"
+description: ""
+# For USERNAME.github.io, leave baseurl empty.
+# For USERNAME.github.io/REPOSITORY, set baseurl to "/REPOSITORY".
+url: "https://Vilov22.github.io"
+baseurl: ""
+markdown: kramdown
+permalink: /posts/:year/:month/:day/:title/
+timezone: Europe/Paris
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
