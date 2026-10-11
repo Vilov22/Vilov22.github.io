@@ -1,10 +1,10 @@
 ---
 title: Posts
 permalink: /posts/
+eyebrow: Ideas in progress
 ---
-<p class="eyebrow">Ideas in progress</p>
-<h1>Posts</h1>
 <p>Occasional notes on projects, mathematics and things I'm learning.</p>
+{% if site.posts.size > 0 %}
 <ul class="post-list">
   {% for post in site.posts %}
   <li>
@@ -12,7 +12,8 @@ permalink: /posts/
     <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
     {% if post.description %}<span class="muted">{{ post.description | escape }}</span>{% endif %}
   </li>
-  {% else %}
-  <li>No posts yet.</li>
   {% endfor %}
 </ul>
+{% else %}
+<p class="muted">No posts published yet.</p>
+{% endif %}

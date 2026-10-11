@@ -1,10 +1,9 @@
 ---
 title: CV
 permalink: /cv/
+eyebrow: Background
+heading: Curriculum vitae
 ---
-<p class="eyebrow">Background</p>
-
-# Curriculum vitae
 
 My CV will be available here soon.
 
@@ -14,4 +13,4 @@ Replace the sentence above with the following Markdown link:
 Do not publish the placeholder CV template or private application notes.
 -->
 
-For enquiries, please [email me](mailto:anton.avilov@ens.psl.eu).
+For enquiries, email me at anton.avilov (you know what) ens.psl.eu.

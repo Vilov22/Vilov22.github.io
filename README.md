@@ -79,4 +79,6 @@ Open **http://127.0.0.1:4000**. Stop the server with Ctrl+C. Restart it after ch
 - **CV:** replace `assets/cv.pdf`; the URL stays the same.
 - **Appearance:** edit CSS variables in `assets/style.css`.
 
+All pages share `_layouts/page.html` for consistent headings and spacing. Set `eyebrow`, optional `heading` (otherwise `title` is used), and optional `intro` in a page's front matter. Do not repeat the main heading in the page body. Posts inherit the same page layout and show their publication date automatically.
+
 Official guide: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll

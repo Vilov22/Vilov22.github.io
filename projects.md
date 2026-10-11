@@ -1,9 +1,9 @@
 ---
 title: Projects
 permalink: /projects/
+eyebrow: Selected work
 ---
-<p class="eyebrow">Selected work</p>
 
-# Projects
+## tipe2
 
-No projects published yet.
+[View repository on GitHub](https://github.com/Vilov22/tipe2)

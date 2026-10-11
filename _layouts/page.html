@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<header class="page-header">
+  {% if page.date %}
+  <p class="eyebrow">Notes · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %d, %Y' }}</time></p>
+  {% elsif page.eyebrow %}
+  <p class="eyebrow">{{ page.eyebrow | escape }}</p>
+  {% endif %}
+  <h1>{{ page.heading | default: page.title | escape }}</h1>
+  {% if page.intro %}<p class="intro">{{ page.intro | escape }}</p>{% endif %}
+</header>
+<div class="page-content">{{ content }}</div>
