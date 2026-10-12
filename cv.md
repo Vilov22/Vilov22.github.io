@@ -1,7 +1,6 @@
 ---
 title: CV
 permalink: /cv/
-eyebrow: Background
 heading: Curriculum vitae
 ---
 

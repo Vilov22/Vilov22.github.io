@@ -1,7 +1,6 @@
 ---
 title: Home
 permalink: /
-eyebrow: Projects & notes
 heading: "Hello, I'm Avilov Anton."
 intro: "I study mathematics, computer science and physics at ENS Paris."
 ---
