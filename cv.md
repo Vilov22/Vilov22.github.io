@@ -4,7 +4,7 @@ permalink: /cv/
 heading: Curriculum vitae
 ---
 
-My CV will be available here soon.
+[Download my CV (PDF)]({{ '/assets/cv.pdf' | relative_url }})
 
 <!-- Once you have a finished public CV, put it at assets/cv.pdf.
 Replace the sentence above with the following Markdown link:
